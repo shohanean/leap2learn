@@ -7,31 +7,67 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About This Project
+# Leap2Learn
 
-This is a starter project for Laravel with various packages included.
-Packages List is given below:
+A Laravel 10 starter project pre-configured with authentication, permissions, and a handful of commonly needed packages.
 
-- Avatar Generator [laravolt/avatar](https://github.com/laravolt/avatar).
-- Number to Words Converter [kwn/number-to-words](https://github.com/kwn/number-to-words).
+## Table of Contents
 
+- [Packages](#packages)
+- [Getting Started](#getting-started)
+- [Tools Used](#tools-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Setup
+## Packages
 
-- **Clone the repository with command: git clone https_link_of_the_repository**
-- **Install [Composer](https://getcomposer.org/download/)**
-- **Run the command: composer update**
-- **Run cp .env.example .env in the terminal**
-- **Then run php artisan key:generate**
-- **Setup the database in .env file**
-- **Then run php artisan migrate**
-- **Then run php artisan db:seed**
-- **Finally serve the application with php artisan serve**
+| Package | Purpose |
+| --- | --- |
+| [laravolt/avatar](https://github.com/laravolt/avatar) | Avatar generator |
+| [kwn/number-to-words](https://github.com/kwn/number-to-words) | Number to words converter |
+| [laravel/sanctum](https://laravel.com/docs/sanctum) | API token authentication |
+| [laravel/socialite](https://laravel.com/docs/socialite) | OAuth / social login |
+| [spatie/laravel-permission](https://spatie.be/docs/laravel-permission) | Roles and permissions |
+| [spatie/laravel-backup](https://spatie.be/docs/laravel-backup) | Application backups |
+| [maatwebsite/excel](https://docs.laravel-excel.com) | Excel import/export |
+| [anhskohbo/no-captcha](https://github.com/anhskohbo/no-captcha) | Google reCAPTCHA integration |
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
+2. Install [Composer](https://getcomposer.org/download/) dependencies:
+   ```bash
+   composer update
+   ```
+3. Copy the environment file:
+   ```bash
+   cp .env.example .env
+   ```
+4. Generate the application key:
+   ```bash
+   php artisan key:generate
+   ```
+5. Configure your database credentials in `.env`.
+6. Run migrations:
+   ```bash
+   php artisan migrate
+   ```
+7. Seed the database:
+   ```bash
+   php artisan db:seed
+   ```
+8. Serve the application:
+   ```bash
+   php artisan serve
+   ```
 
 ## Tools Used
 
-- **[Laravel Livewire](https://laravel-livewire.com/)**
-- **[Alpine.js](https://alpinejs.dev/)**
+- [Laravel Livewire](https://laravel-livewire.com/)
+- [Alpine.js](https://alpinejs.dev/)
 
 ## Contributing
 
