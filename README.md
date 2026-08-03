@@ -9,15 +9,21 @@
 
 # Leap2Learn
 
-A Laravel 10 starter project pre-configured with authentication, permissions, and a handful of commonly needed packages.
+A Laravel 12 starter project pre-configured with authentication, permissions, and a handful of commonly needed packages.
 
 ## Table of Contents
 
+- [Requirements](#requirements)
 - [Packages](#packages)
 - [Getting Started](#getting-started)
 - [Tools Used](#tools-used)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Requirements
+
+- PHP ^8.2
+- Composer
 
 ## Packages
 
